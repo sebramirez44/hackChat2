@@ -1,0 +1,42 @@
+.contenedor {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.tarjeta {
+    margin-top:10%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.sendMensaje {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.mensaje {
+    width: 60%;
+}
+
+.boton {
+    height:fit-content;
+    padding:0.5em;
+    text-align:center;
+    display:flex;
+}
+
+.verticalAligned {
+    width:20%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.textInput {
+    border: 1px solid black;
+    width: 100%;
+    height:3em;
+}
